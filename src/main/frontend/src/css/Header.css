@@ -1,0 +1,10 @@
+.hd_main{
+    height: 28px;
+    padding: 1rem;
+    color: white;
+    background: #3300FF61;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
