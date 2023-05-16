@@ -9,11 +9,11 @@ import javax.persistence.*;
 import java.util.Date;
 
 @Data
-@Entity
 @Builder
 @NoArgsConstructor //파라미터가 없는 기본 생성자를 생성
 @AllArgsConstructor //전체 변수에 대한 생성자를 생성
 //@RequiredArgsConstructor //final이나, @NotNull에 대한 변수의 생성자를 생성
+@Entity
 public class Product {
 
     @Id
