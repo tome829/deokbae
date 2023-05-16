@@ -1,30 +1,43 @@
 package inox.deokbae.deokbae;
 
+
+import inox.deokbae.deokbae.Entity.Product;
+import inox.deokbae.deokbae.Repository.ProductRepository;
 import org.junit.jupiter.api.Test;
+import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.context.annotation.Bean;
+import org.springframework.test.context.junit4.SpringRunner;
 
+import javax.persistence.Column;
 import javax.sql.DataSource;
+import javax.transaction.Transactional;
 
 import java.sql.Connection;
 import java.sql.SQLException;
+import java.util.Date;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+@RunWith(SpringRunner.class)
 @SpringBootTest
+@Transactional
 public class postgresqlTest {
 
     @Autowired
-    DataSource dataSource; //application properties에 등록된 데이터베이스 관련 정보들을 가져옴
+    private ProductRepository productRepository;
 
     @Test
-    void testDatabaseConnection() {
-        assertThat(dataSource).isNotNull();
-        try (Connection connection = dataSource.getConnection()) {
-            assertThat(connection).isNotNull();
-        } catch (SQLException e) {
-            e.printStackTrace();
+    void insertTest() {
+        long num = 1000;
+        for(int i=0; i<5; i++) {
+            Product product = Product.builder()
+                    .cate_code(num)
+                    .contents("test")
+                    .title("test_title")
+                    .del_yn("N")
+                                        .build();
         }
     }
 
