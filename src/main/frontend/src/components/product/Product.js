@@ -5,7 +5,6 @@ function Product({item}) {
         <div className="product">
             <img src={item.image} alt={item.image_name}/>
             <h2>{item.name}</h2>
-            <p>{item.description}</p>
             <p>{item.price}</p>
         </div>
     )

@@ -33,11 +33,16 @@ img{
     background-color: transparent;
     position:relative;
     width: 100%;
-    border-bottom: solid 0.5px;
+    color: #d3d0cf;
 }
 
 .Nav_bar button div{
     font-size: 16px;
+}
+
+.Nav_bar button.selected {
+    border-bottom: solid 0.5px;
+    color: black;
 }
 
 
