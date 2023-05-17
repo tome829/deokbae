@@ -1,16 +1,14 @@
 package inox.deokbae.deokbae.Entity;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import javax.persistence.*;
 import java.util.Date;
 
-@Data
+@Getter
 @Entity
 @Builder
+@Table(name = "product", schema = "tospace")
 @NoArgsConstructor //파라미터가 없는 기본 생성자를 생성
 @AllArgsConstructor //전체 변수에 대한 생성자를 생성
 //@RequiredArgsConstructor //final이나, @NotNull에 대한 변수의 생성자를 생성
@@ -31,5 +29,10 @@ public class Product {
     private Date date;
 
     private String del_yn;
+
+    @Column(name = "like_count")
+    private int like;
+
+    private int price;
 
 }

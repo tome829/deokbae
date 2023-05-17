@@ -20,6 +20,7 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
                 .and()
                 .authorizeRequests()
                 .antMatchers(PERMIT_URL).permitAll()
+                .antMatchers("/product/**").permitAll()
                 .anyRequest().authenticated();
 
 
@@ -49,6 +50,7 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
     }
 
     private static final String[] PERMIT_URL = {
-            "/index"
+            "/index",
+            "/product/**"
     };
 }
