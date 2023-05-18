@@ -1,5 +1,5 @@
 import React from "react";
-import imagePath from "../../img/chunsik1.jpg";
+import imagePath from "../../img/chunsik3.jpg";
 
 function Product({item}) {
     //const imagePath = `../../img/${item.image}`;
