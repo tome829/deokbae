@@ -1,65 +1,65 @@
 {
   "data":[
     {
-    "image": "chunsik1.jpg",
+    "image": "BongGu1.jpg",
     "image_name": "안녕하세요 이름.",
-    "name": "춘식1",
+    "name": "봉구1",
     "description": "상품 설명란",
     "price": "10000"
     },{
-      "image": "chunsik1.jpg",
+      "image": "BongGu1.jpg",
       "image_name": "안녕하세요 이름.",
-      "name": "춘식1",
+      "name": "봉구1",
       "description": "상품 설명란",
-      "price": "10000"
+      "price": "5000"
     },{
-      "image": "chunsik2.jpg",
+      "image": "BongGu2.jpg",
       "image_name": "안녕하세요 이름.",
-      "name": "춘식이2",
+      "name": "봉구2",
       "description": "상품 설명란",
-      "price": "10000"
+      "price": "3000"
     },{
-      "image": "chunsik2.jpg",
+      "image": "BongGu2.jpg",
       "image_name": "안녕하세요 이름.",
-      "name": "춘식이2",
+      "name": "봉구2",
       "description": "상품 설명란",
-      "price": "10000"
+      "price": "3000"
     },{
-      "image": "chunsik2.jpg",
+      "image": "BongGu2.jpg",
       "image_name": "안녕하세요 이름.",
-      "name": "상품이름",
+      "name": "봉구2",
       "description": "상품 설명란",
-      "price": "10000"
+      "price": "15000"
     },{
-      "image": "deokbae1.jpg",
+      "image": "BongGu3.jpg",
       "image_name": "안녕하세요 이름.",
-      "name": "상품이름",
+      "name": "봉구3",
       "description": "상품 설명란",
-      "price": "10000"
+      "price": "15000"
     },{
-      "image": "deokbae1.jpg",
+      "image": "BongGu3.jpg",
       "image_name": "안녕하세요 이름.",
-      "name": "상품이름",
+      "name": "봉구3",
       "description": "상품 설명란",
-      "price": "10000"
+      "price": "1000"
     },{
-      "image": "deokbae1.jpg",
+      "image": "BongGu3.jpg",
       "image_name": "안녕하세요 이름.",
-      "name": "상품이름",
+      "name": "봉구3",
       "description": "상품 설명란",
-      "price": "10000"
+      "price": "1000"
     },{
-      "image": "deokbae2.jpg",
+      "image": "BongGu3.jpg",
       "image_name": "안녕하세요 이름.",
-      "name": "상품이름",
+      "name": "봉구3",
       "description": "상품 설명란",
-      "price": "10000"
+      "price": "8000"
     },{
-      "image": "deokbae3.jpg",
+      "image": "BongGu3.jpg",
       "image_name": "안녕하세요 이름.",
-      "name": "상품이름",
+      "name": "봉구3",
       "description": "상품 설명란",
-      "price": "10000"
+      "price": "1000"
     }
   ]
 }
