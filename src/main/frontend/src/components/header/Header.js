@@ -1,23 +1,39 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import userImg from '../../img/icon/userImg.png';
 
 function Header() {
     const [isLoggedIn, setIsLoggedIn] = useState(false);
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+    const dropdownRef = useRef(null);
 
     const handleLogin = () => {
-        // 로그인 처리 로직 구현 & 로그인 성공 시 isLoggedIn 상태를 true로 업데이트
         setIsLoggedIn(true);
     };
 
     const handleLogout = () => {
-        // 로그아웃 처리 로직 구현 & 로그아웃 성공 시 isLoggedIn 상태를 false로 업데이트
         setIsLoggedIn(false);
     };
 
-    const toggleDropdown = () => {
+    const toggleDropdown = (event) => {
+        event.stopPropagation(); // 이벤트 버블링 방지
         setIsDropdownOpen(!isDropdownOpen);
     };
+
+    useEffect(() => {
+        const onClickOutside = (event) => {
+            if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+                setIsDropdownOpen(false);
+            }
+        };
+
+        if (isDropdownOpen) {
+            window.addEventListener('click', onClickOutside);
+        }
+
+        return () => {
+            window.removeEventListener('click', onClickOutside);
+        };
+    }, [isDropdownOpen]);
 
     return (
         <div className="header-main" id="header_main">
@@ -25,11 +41,11 @@ function Header() {
                 <div className="hd_logo">로고</div>
                 <div className="hd_per_page">
                     {isLoggedIn ? (
-                        // 로그인한 경우
-                        <div onClick={toggleDropdown} className="dropdown-trigger">
-                            <img src={userImg} alt="User" />
+                        <div className="dropdown-trigger">
+                            <div className="u_name">김효원님</div>
+                            <img src={userImg} alt="User" onClick={toggleDropdown} />
                             {isDropdownOpen && (
-                                <div className="dropdown">
+                                <div className="dropdown" ref={dropdownRef}>
                                     <ul className="dropdown-list">
                                         <li className="dropdown-item">설정</li>
                                         <li className="dropdown-item" onClick={handleLogout}>
@@ -40,7 +56,6 @@ function Header() {
                             )}
                         </div>
                     ) : (
-                        // 로그인 하지 않은 경우
                         <div onClick={handleLogin}>로그인</div>
                     )}
                 </div>
