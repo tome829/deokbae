@@ -38,7 +38,8 @@ img{
 }
 
 .Nav_bar button div{
-    font-size: 16px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .Nav_bar button.selected {
