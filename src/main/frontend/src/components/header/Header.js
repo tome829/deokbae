@@ -1,4 +1,5 @@
 import React from 'react';
+import userImg from '../../img/icon/userImg.png';
 
 export default class Header extends React.Component{
     render() {
@@ -9,7 +10,7 @@ export default class Header extends React.Component{
                         로고
                     </div>
                     <div className="hd_per_page">
-                        프로필
+                        <img src={userImg} />
                     </div>
                 </div>
             </div>

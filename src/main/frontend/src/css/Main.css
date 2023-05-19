@@ -9,6 +9,10 @@
     justify-content: space-between;
     align-items: center;
 }
+.hd_per_page img {
+    width: 35px;
+}
+
 /* banner */
 .img_area{
     align-content: center;

@@ -4,7 +4,7 @@ function Nav({selectedTab, setSelectedTab}) {
 
     const handleTabClick = (tabName) => { //handleTabClick 함수 사용하여, 버튼을 클릭했을 때, 선택된 카테고리 업데이트
         setSelectedTab(tabName);
-        console.log("현재 카테고리 상태 값 : " + tabName);
+        //console.log("현재 카테고리 상태 값 : " + tabName);
     };
 
     return (
