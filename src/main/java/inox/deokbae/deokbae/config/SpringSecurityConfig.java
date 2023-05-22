@@ -51,6 +51,8 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
 
     private static final String[] PERMIT_URL = {
             "/index",
-            "/product/**"
+            "/product/**",
+            "/swagger-ui.html",
+            "/swagger-ui/index.html"
     };
 }
