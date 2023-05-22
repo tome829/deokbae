@@ -2,6 +2,7 @@ package inox.deokbae.deokbae.Controller;
 
 import inox.deokbae.deokbae.Entity.Product;
 import inox.deokbae.deokbae.Service.ProductService;
+import io.swagger.annotations.ApiOperation;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Controller;
@@ -32,5 +33,11 @@ public class ProductController {
         System.out.println("쉐리마");
         Optional<Product> product = productService.test();
         System.out.println(product);
+    }
+
+    @ApiOperation(value = "테스트",notes = "테스트입니다.")
+    @GetMapping("/textSample")
+    public void getTest(){
+        System.out.println("테스트 입니다.");
     }
 }

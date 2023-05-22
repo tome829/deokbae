@@ -53,6 +53,11 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
             "/index",
             "/product/**",
             "/swagger-ui.html",
-            "/swagger-ui/index.html"
+            "/swagger-ui/index.html",
+            "/swagger-ui/**",
+            "/swagger-resources",
+            "/swagger-resources/**",
+            "/v2/api-docs",
+            "/v3/api-docs/**"
     };
 }
