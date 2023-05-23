@@ -1,65 +1,105 @@
 {
   "data":[
     {
-    "image": "deokbae1.jpg",
-    "image_name": "덕배1",
-    "name": "덕배1",
-    "description": "상품 설명란",
-    "price": "10000"
-    },{
+      "prod_id" : 1,
+      "cate_code": 1001,
+      "title": "귀여운 덕배",
+      "contents": "정말 치명적인 덕배! 뒹구는 덕배!",
+      "reg_dt": "2023-05-03",
+      "price": 5000,
+      "like_count": 17,
       "image": "deokbae1.jpg",
-      "image_name": "덕배1",
-      "name": "덕배1",
-      "description": "상품 설명란",
-      "price": "10000"
+      "image_name": "덕배1"
     },{
+      "prod_id" : 2,
+      "cate_code": 1001,
+      "title": "귀여운 덕배",
+      "contents": "정말 치명적인 덕배! 뒹구는 덕배!",
+      "reg_dt": "2023-05-03",
+      "price": 5000,
+      "like_count": 17,
       "image": "deokbae1.jpg",
-      "image_name": "덕배1",
-      "name": "덕배1",
-      "description": "상품 설명란",
-      "price": "10000"
+      "image_name": "덕배1"
     },{
+      "prod_id" : 3,
+      "cate_code": 1001,
+      "title": "귀여운 덕배",
+      "contents": "정말 치명적인 덕배! 뒹구는 덕배!",
+      "reg_dt": "2023-05-03",
+      "price": 5000,
+      "like_count": 17,
       "image": "deokbae1.jpg",
-      "image_name": "덕배1",
-      "name": "덕배1",
-      "description": "상품 설명란",
-      "price": "10000"
+      "image_name": "덕배1"
     },{
+      "prod_id" : 4,
+      "cate_code": 1001,
+      "title": "귀여운 덕배",
+      "contents": "정말 치명적인 덕배! 뒹구는 덕배!",
+      "reg_dt": "2023-05-03",
+      "price": 5000,
+      "like_count": 17,
       "image": "deokbae1.jpg",
-      "image_name": "덕배1",
-      "name": "덕배1",
-      "description": "상품 설명란",
-      "price": "10000"
+      "image_name": "덕배1"
     },{
+      "prod_id" : 5,
+      "cate_code": 1001,
+      "title": "귀여운 덕배",
+      "contents": "정말 치명적인 덕배! 뒹구는 덕배!",
+      "reg_dt": "2023-05-03",
+      "price": 5000,
+      "like_count": 17,
       "image": "deokbae1.jpg",
-      "image_name": "덕배1",
-      "name": "덕배1",
-      "description": "상품 설명란",
-      "price": "10000"
+      "image_name": "덕배1"
     },{
-      "image": "deokbae2.jpg",
-      "image_name": "덕배2",
-      "name": "덕배2",
-      "description": "상품 설명란",
-      "price": "10000"
+      "prod_id" : 6,
+      "cate_code": 1001,
+      "title": "귀여운 덕배",
+      "contents": "정말 치명적인 덕배! 뒹구는 덕배!",
+      "reg_dt": "2023-05-03",
+      "price": 5000,
+      "like_count": 17,
+      "image": "deokbae1.jpg",
+      "image_name": "덕배1"
     },{
-      "image": "deokbae2.jpg",
-      "image_name": "덕배2",
-      "name": "덕배2",
-      "description": "상품 설명란",
-      "price": "10000"
+      "prod_id" : 7,
+      "cate_code": 1001,
+      "title": "귀여운 덕배",
+      "contents": "정말 치명적인 덕배! 뒹구는 덕배!",
+      "reg_dt": "2023-05-03",
+      "price": 5000,
+      "like_count": 17,
+      "image": "deokbae1.jpg",
+      "image_name": "덕배1"
     },{
-      "image": "deokbae3.jpg",
-      "image_name": "덕배3",
-      "name": "덕배3",
-      "description": "상품 설명란",
-      "price": "10000"
+      "prod_id" : 8,
+      "cate_code": 1001,
+      "title": "귀여운 덕배",
+      "contents": "정말 치명적인 덕배! 뒹구는 덕배!",
+      "reg_dt": "2023-05-03",
+      "price": 5000,
+      "like_count": 17,
+      "image": "deokbae1.jpg",
+      "image_name": "덕배1"
     },{
-      "image": "deokbae3.jpg",
-      "image_name": "덕배3",
-      "name": "덕배3",
-      "description": "상품 설명란",
-      "price": "10000"
+      "prod_id" : 9,
+      "cate_code": 1001,
+      "title": "귀여운 덕배",
+      "contents": "정말 치명적인 덕배! 뒹구는 덕배!",
+      "reg_dt": "2023-05-03",
+      "price": 5000,
+      "like_count": 17,
+      "image": "deokbae1.jpg",
+      "image_name": "덕배1"
+    },{
+      "prod_id" : 10,
+      "cate_code": 1001,
+      "title": "귀여운 덕배",
+      "contents": "정말 치명적인 덕배! 뒹구는 덕배!",
+      "reg_dt": "2023-05-03",
+      "price": 5000,
+      "like_count": 17,
+      "image": "deokbae1.jpg",
+      "image_name": "덕배1"
     }
   ]
 }

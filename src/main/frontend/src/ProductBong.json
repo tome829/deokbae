@@ -1,65 +1,105 @@
 {
   "data":[
     {
-    "image": "BongGu1.jpg",
-    "image_name": "안녕하세요 이름.",
-    "name": "봉구1",
-    "description": "상품 설명란",
-    "price": "10000"
-    },{
+      "prod_id" : 21,
+      "cate_code": 1003,
+      "title": "봉구",
+      "contents": "그냥 봉구",
+      "reg_dt": "2023-05-23",
+      "price": 5000,
+      "like_count": 0,
       "image": "BongGu1.jpg",
-      "image_name": "안녕하세요 이름.",
-      "name": "봉구1",
-      "description": "상품 설명란",
-      "price": "5000"
+      "image_name": "봉구"
     },{
-      "image": "BongGu2.jpg",
-      "image_name": "안녕하세요 이름.",
-      "name": "봉구2",
-      "description": "상품 설명란",
-      "price": "3000"
+      "prod_id" : 22,
+      "cate_code": 1003,
+      "title": "봉구",
+      "contents": "그냥 봉구",
+      "reg_dt": "2023-05-23",
+      "price": 5000,
+      "like_count": 0,
+      "image": "BongGu1.jpg",
+      "image_name": "봉구"
     },{
-      "image": "BongGu2.jpg",
-      "image_name": "안녕하세요 이름.",
-      "name": "봉구2",
-      "description": "상품 설명란",
-      "price": "3000"
+      "prod_id" : 23,
+      "cate_code": 1003,
+      "title": "봉구",
+      "contents": "그냥 봉구",
+      "reg_dt": "2023-05-23",
+      "price": 5000,
+      "like_count": 0,
+      "image": "BongGu1.jpg",
+      "image_name": "봉구"
     },{
-      "image": "BongGu2.jpg",
-      "image_name": "안녕하세요 이름.",
-      "name": "봉구2",
-      "description": "상품 설명란",
-      "price": "15000"
+      "prod_id" : 24,
+      "cate_code": 1003,
+      "title": "봉구",
+      "contents": "그냥 봉구",
+      "reg_dt": "2023-05-23",
+      "price": 5000,
+      "like_count": 0,
+      "image": "BongGu1.jpg",
+      "image_name": "봉구"
     },{
-      "image": "BongGu3.jpg",
-      "image_name": "안녕하세요 이름.",
-      "name": "봉구3",
-      "description": "상품 설명란",
-      "price": "15000"
+      "prod_id" : 25,
+      "cate_code": 1003,
+      "title": "봉구",
+      "contents": "그냥 봉구",
+      "reg_dt": "2023-05-23",
+      "price": 5000,
+      "like_count": 0,
+      "image": "BongGu1.jpg",
+      "image_name": "봉구"
     },{
-      "image": "BongGu3.jpg",
-      "image_name": "안녕하세요 이름.",
-      "name": "봉구3",
-      "description": "상품 설명란",
-      "price": "1000"
+      "prod_id" : 26,
+      "cate_code": 1003,
+      "title": "봉구",
+      "contents": "그냥 봉구",
+      "reg_dt": "2023-05-23",
+      "price": 5000,
+      "like_count": 0,
+      "image": "BongGu1.jpg",
+      "image_name": "봉구"
     },{
-      "image": "BongGu3.jpg",
-      "image_name": "안녕하세요 이름.",
-      "name": "봉구3",
-      "description": "상품 설명란",
-      "price": "1000"
+      "prod_id" : 27,
+      "cate_code": 1003,
+      "title": "봉구",
+      "contents": "그냥 봉구",
+      "reg_dt": "2023-05-23",
+      "price": 5000,
+      "like_count": 0,
+      "image": "BongGu1.jpg",
+      "image_name": "봉구"
     },{
-      "image": "BongGu3.jpg",
-      "image_name": "안녕하세요 이름.",
-      "name": "봉구3",
-      "description": "상품 설명란",
-      "price": "8000"
+      "prod_id" : 28,
+      "cate_code": 1003,
+      "title": "봉구",
+      "contents": "그냥 봉구",
+      "reg_dt": "2023-05-23",
+      "price": 5000,
+      "like_count": 0,
+      "image": "BongGu1.jpg",
+      "image_name": "봉구"
     },{
-      "image": "BongGu3.jpg",
-      "image_name": "안녕하세요 이름.",
-      "name": "봉구3",
-      "description": "상품 설명란",
-      "price": "1000"
+      "prod_id" : 29,
+      "cate_code": 1003,
+      "title": "봉구",
+      "contents": "그냥 봉구",
+      "reg_dt": "2023-05-23",
+      "price": 5000,
+      "like_count": 0,
+      "image": "BongGu1.jpg",
+      "image_name": "봉구"
+    },{
+      "prod_id" : 30,
+      "cate_code": 1003,
+      "title": "봉구",
+      "contents": "그냥 봉구",
+      "reg_dt": "2023-05-23",
+      "price": 5000,
+      "like_count": 0,
+      "image": "BongGu1.jpg",
+      "image_name": "봉구"
     }
   ]
 }

@@ -1,65 +1,105 @@
 {
   "data":[
     {
-    "image": "chunsik1.jpg",
-    "image_name": "안녕하세요 이름.",
-    "name": "춘식1",
-    "description": "상품 설명란",
-    "price": "10000"
-    },{
+      "prod_id" : 11,
+      "cate_code": 1002,
+      "title": "멋있는 춘식",
+      "contents": "멋있는 춘식이",
+      "reg_dt": "2023-05-23",
+      "price": 5000,
+      "like_count": 0,
       "image": "chunsik1.jpg",
-      "image_name": "안녕하세요 이름.",
-      "name": "춘식1",
-      "description": "상품 설명란",
-      "price": "10000"
+      "image_name": "춘식"
     },{
-      "image": "chunsik2.jpg",
-      "image_name": "안녕하세요 이름.",
-      "name": "춘식이2",
-      "description": "상품 설명란",
-      "price": "10000"
+      "prod_id" : 12,
+      "cate_code": 1002,
+      "title": "멋있는 춘식",
+      "contents": "멋있는 춘식이",
+      "reg_dt": "2023-05-23",
+      "price": 5000,
+      "like_count": 0,
+      "image": "chunsik1.jpg",
+      "image_name": "춘식"
     },{
-      "image": "chunsik2.jpg",
-      "image_name": "안녕하세요 이름.",
-      "name": "춘식이2",
-      "description": "상품 설명란",
-      "price": "10000"
+      "prod_id" : 13,
+      "cate_code": 1002,
+      "title": "멋있는 춘식",
+      "contents": "멋있는 춘식이",
+      "reg_dt": "2023-05-23",
+      "price": 5000,
+      "like_count": 0,
+      "image": "chunsik1.jpg",
+      "image_name": "춘식"
     },{
-      "image": "chunsik2.jpg",
-      "image_name": "안녕하세요 이름.",
-      "name": "춘식이2",
-      "description": "상품 설명란",
-      "price": "10000"
+      "prod_id" : 14,
+      "cate_code": 1002,
+      "title": "멋있는 춘식",
+      "contents": "멋있는 춘식이",
+      "reg_dt": "2023-05-23",
+      "price": 5000,
+      "like_count": 0,
+      "image": "chunsik1.jpg",
+      "image_name": "춘식"
     },{
-      "image": "chunsik2.jpg",
-      "image_name": "안녕하세요 이름.",
-      "name": "춘식이2",
-      "description": "상품 설명란",
-      "price": "10000"
+      "prod_id" : 15,
+      "cate_code": 1002,
+      "title": "멋있는 춘식",
+      "contents": "멋있는 춘식이",
+      "reg_dt": "2023-05-23",
+      "price": 5000,
+      "like_count": 0,
+      "image": "chunsik1.jpg",
+      "image_name": "춘식"
     },{
-      "image": "chunsik2.jpg",
-      "image_name": "안녕하세요 이름.",
-      "name": "춘식이2",
-      "description": "상품 설명란",
-      "price": "10000"
+      "prod_id" : 16,
+      "cate_code": 1002,
+      "title": "멋있는 춘식",
+      "contents": "멋있는 춘식이",
+      "reg_dt": "2023-05-23",
+      "price": 5000,
+      "like_count": 0,
+      "image": "chunsik1.jpg",
+      "image_name": "춘식"
     },{
-      "image": "chunsik2.jpg",
-      "image_name": "안녕하세요 이름.",
-      "name": "춘식이2",
-      "description": "상품 설명란",
-      "price": "10000"
+      "prod_id" : 17,
+      "cate_code": 1002,
+      "title": "멋있는 춘식",
+      "contents": "멋있는 춘식이",
+      "reg_dt": "2023-05-23",
+      "price": 5000,
+      "like_count": 0,
+      "image": "chunsik1.jpg",
+      "image_name": "춘식"
     },{
-      "image": "chunsik3.jpg",
-      "image_name": "안녕하세요 이름.",
-      "name": "춘식이3",
-      "description": "상품 설명란",
-      "price": "10000"
+      "prod_id" : 18,
+      "cate_code": 1002,
+      "title": "멋있는 춘식",
+      "contents": "멋있는 춘식이",
+      "reg_dt": "2023-05-23",
+      "price": 5000,
+      "like_count": 0,
+      "image": "chunsik1.jpg",
+      "image_name": "춘식"
     },{
-      "image": "chunsik3.jpg",
-      "image_name": "안녕하세요 이름.",
-      "name": "춘식이3",
-      "description": "상품 설명란",
-      "price": "10000"
+      "prod_id" : 19,
+      "cate_code": 1002,
+      "title": "멋있는 춘식",
+      "contents": "멋있는 춘식이",
+      "reg_dt": "2023-05-23",
+      "price": 5000,
+      "like_count": 0,
+      "image": "chunsik1.jpg",
+      "image_name": "춘식"
+    },{
+      "prod_id" : 20,
+      "cate_code": 1002,
+      "title": "멋있는 춘식",
+      "contents": "멋있는 춘식이",
+      "reg_dt": "2023-05-23",
+      "price": 5000,
+      "like_count": 0,
+      "image": "chunsik1.jpg",
+      "image_name": "춘식"
     }
   ]
 }
