@@ -2,14 +2,17 @@ import React from "react";
 
 function Product({item}) {
     let path = `${item.image}`;
-    const imagePath = '/img/'+path;
+    const imagePath = '/product_img/'+path;
 
+    let id = `/product/${item.prod_id}`;
     return (
-        <div className="product">
-            <img src={imagePath} alt='이미지 테스트' />
-            <h2>{item.name}</h2>
-            <p>{item.price}</p>
-        </div>
+        <a href={id}>
+            <div className="product">
+                <img src={imagePath} alt='이미지 테스트' />
+                <h2>{item.title}</h2>
+                <p>{item.price}</p>
+            </div>
+        </a>
     )
 }
 
