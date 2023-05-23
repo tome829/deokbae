@@ -49,6 +49,8 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
         webSecurity.ignoring().antMatchers("/static/js/**","/static/css/**","/static/img/**");
     }
 
+
+
     private static final String[] PERMIT_URL = {
             "/index",
             "/product/**",
@@ -58,6 +60,7 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
             "/swagger-resources",
             "/swagger-resources/**",
             "/v2/api-docs",
-            "/v3/api-docs/**"
+            "/v3/api-docs/**",
+            "/api/auth/**"
     };
 }
